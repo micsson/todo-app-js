@@ -1,0 +1,67 @@
+body{
+    background-color: #515261;
+}
+
+.form-control{
+    background-color: #F1DDD8;
+}
+
+.container{
+    
+    margin-top: 5rem;
+    align-content: center;
+    max-width: 50rem;
+}
+
+.container .card{
+    margin-top: 50px;
+}
+
+h1{
+    margin: 0 auto;
+    color: #F1DDD8;
+}
+
+h2{
+    text-align: center;
+    color: #F1DDD8;
+}
+
+.list-group-item .input{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-outline-secondary{
+    color: #F1DDD8;
+    border-color: #F1DDD8;
+}
+
+.btn-danger {
+    color: #F1DDD8;
+    background-color: #E1695A;
+    border-color: #E1695A;
+}
+
+.btn-danger{
+    float: right;
+}
+
+.todoCheckbox{
+    float: left;
+    margin-right: 1.5rem;
+    margin-top: 0.45rem;
+}
+
+.list-group-item{
+    background-color: #F1DDD8;
+    color: #515261;
+}
+
+
+
+
+
+
+
+

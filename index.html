@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/todo.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TodoMaker
+    </title>
+</head>
+<body onload = displayTodos(listToDo());>
+<div class="container">
+    <div class="main row"> 
+        <h1>My TodoMaker</h1>
+            <div class="card-body col-12">
+                    <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="todo" placeholder="Write todo here" aria-label="Write your todo here" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="createToDo(getElementById('todo').value)" >Save Todo</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-warning" onclick="sort()">A-Z</button>
+            </div>
+        <div class="col-sm-12 col-md-6">
+        
+        <div class="card-body">
+            <h2>Todo's</h2>
+        <ul class="list-group" id="theList">
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <div class="card-body">
+            <h2>Finished todo's</h2>
+            <ul class="list-group" id="doneList">
+                </ul>
+        </div>
+    </div>
+    </div>
+
+    </div>
+</body>
+</html> 
